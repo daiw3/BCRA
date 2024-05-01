@@ -48,3 +48,5 @@ Data used for simulation demo are located under **./data/**\*. The genotype data
 2.  Partition Genotype into SNP-set: you can use gene/LD-block or physical locations (what we adopted) to do the partition.
 3.  Genotype QC: we exclude: 1) subjects with more than 10% missing genotypes; 2) variants with missing genotype rate larger than 10%; and 3) variants that failed the Hardy-Weinberg test at $10^{-6}$ level.
 4.  Run subsample-BCRA on a SNP-set using code located under `./demo/UKB/1-run-subsample-BCRA-SNPset.R`. Since we are unable to provide sensitive real data, we provided a demo dataset named as \*./data/chr5_8_demo.RData\* for illustration purpose to execuate the code. The output of the code will give selected SNPs (`selected_snps_int`) and permutation p-value for this SNP-set `pval_results_perm`.
+=======
+Ball Covariance Ranking and Aggregation (BCRA) hypothesis test
