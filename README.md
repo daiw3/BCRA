@@ -11,8 +11,8 @@ Required codes are located under ./**code/\***, including `Ball-1.3.12.tar.gz`, 
 Data used for simulation demo are located under **./data/**\*. The genotype data used for simulations is too large to put here. It can be sent upon request
 
 1)  *matrixB4.mat*: The \$\mathbf{B} as shown in \$Fig.2c
-2)  *simu_data_demo*.RData: simulated data for single SNP-set simulation, generated from the code `0-single-snpset-generate-simu-data.R`
-3)  *simu_data_multiset_demo*.RData: simulated data for single SNP-set simulation, generated from the code `0-single-snpset-generate-simu-data.R`
+2)  *simu_data_demo*.RData: simulated data for single SNP-set simulation, generated from the code `0-single-snpset-generate-simu-data.R`. The file is large to upload so we put it into the cloud drive: https://drive.google.com/drive/folders/1CiarCyY5CblCTfJ-RpGfYjkQBqfY--au?usp=drive_link. 
+3)  *simu_data_multiset_demo*.RData: simulated data for single SNP-set simulation, generated from the code `0-single-snpset-generate-simu-data.R`. The file is large to upload so we put it into the cloud drive: https://drive.google.com/drive/folders/1CiarCyY5CblCTfJ-RpGfYjkQBqfY--au?usp=drive_link.
 4)  *chr5_8_demo.RData*: make-up data for showing how to apply subsample-BCRA on UKB.
 
 ## Simulations 
